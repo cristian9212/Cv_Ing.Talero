@@ -24,7 +24,7 @@ body {
 /* Estilos del encabezado */
 header {
     padding: 40px;
-    background: linear-gradient(135deg, #6c5ce7 0%, #8860ff 100%);
+    background: linear-gradient(135deg, #5c8ae7 0%, #6063ff 100%);
     color: white;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -175,9 +175,19 @@ section:hover {
 }
 
 .date {
-    color: #8b5cf6;
+    color: #5c69f6;
     font-size: 0.95em;
     font-weight: 600;
+}
+
+.lista {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+.lista div::before {
+    content: "• "; 
+    color: black;
+    font-weight: bold;
 }
 
 /* Estilos de habilidades */
@@ -267,4 +277,17 @@ li::before {
         width: 150px;
         height: 150px;
     }
+}
+
+.linkedin-link {
+    text-decoration: none;
+    color: white;
+    background-color: #0A66C2;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+.linkedin-link:hover {
+    background-color: #084a93;
 }
